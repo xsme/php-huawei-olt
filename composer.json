@@ -1,0 +1,20 @@
+{
+    "name": "xsme/php-huawei-olt",
+    "description": "Komunikacja z oltem Huawei serii MA5800",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xsme\\PhpHuaweiOlt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Rzeszutek"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpseclib/phpseclib": "^3.0"
+    }
+}
