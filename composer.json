@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Xsme\\PhpHuaweiOlt\\": "src/"
+            "xsme\\HuaweiOlt\\": "src/"
         }
     },
     "authors": [
@@ -15,6 +15,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": ">= 7.3.33",
         "phpseclib/phpseclib": "^3.0"
     }
 }
