@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "xsme\\HuaweiOlt\\": "src/"
-        }
+        },
+        "files": [
+            "src/terminal.php"
+        ]
     },
     "authors": [
         {
