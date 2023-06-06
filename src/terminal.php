@@ -50,7 +50,7 @@ class Terminal
      * @param integer $socksPort port serwera SOCKS jezeli uzywamy proxy do polaczania SSH
      * @return void
      */
-    public function __construct(string $ipAddress, string $login, string $password, int $port = 22, bool $debug = false, int $timeOut = 2, string $socksIp = false, int $socksPort = false) {
+    public function __construct(string $ipAddress, string $login, string $password, int $port = 22, bool $debug = false, int $timeOut = 2, string $socksIp = null, int $socksPort = null) {
         $this->ipAddress  = $ipAddress;
         $this->login      = $login;
         $this->port       = $port;
